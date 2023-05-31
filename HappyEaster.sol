@@ -5,7 +5,7 @@ contract HappyEaster {
     uint256 public year;
     uint256 public month;
     uint256 public day;
-    uint256 public date;
+
 
     function markOnChain(uint256 _year, uint256 _month, uint256 _day) public {
         require(_year <= 9999, "Invalid year input");
